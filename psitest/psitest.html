@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>psixD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<style>
+
+}
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+
+.navbar-default {
+    background-color: #FFFFFF;
+border-color: #FFFFFF;
+}
+}</style>
+
+
+<div class="container">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+ <a href="#" class="pull-left"><img src="logo.png"></a> 
+    </div>
+
+	
+<style>
+.temp{ margin-top:45px
+}
+</style>	
+    <!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="temp">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+	
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Porfolio <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+<div class="container-fixed">
+ <style>
+ .carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+ </style>
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="ny.jpg" alt="New York" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<div style="background:transparent !important" class="jumbotron"> 
+  <div class="container text-center">
+    <h3>Welcome! This is <span class="text-primary">CoWorker</span>, a very clean, <span class="text-primary">responsive</span> & super flexible <span class="text-primary"> multipurpose </span>theme built to simplify your theme building experience.</h3>      <br>
+    <button type="button" class="btn btn-primary">See pricing</button>
+<button type="button" class="btn btn-primary">See portfolio</button>
+<br>
+  </div>
+</div>
+  
+  <div class=container>
+  
+<div class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      <div class="col-sm-6"><img style="float: left;margin-right:2px,padding-left:52px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div>
+  <div class="col-sm-6"><img style="float: left;margin-right:2px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div> <div class="col-sm-6"><img style="float: left;margin-right:2px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div> <div class="col-sm-6"><img style="float: left;margin-right:2px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div> <div class="col-sm-6"><img style="float: left;margin-right:2px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div> <div class="col-sm-6"><img style="float: left;margin-right:2px" src="Transparent_X.png"><h2>Fully Responsive Design</h2>
+<p>CoWorker is responsive to the Core. Resize your Browser to see the magic. Your website will be loved across devices.</p></div></div>
+ 
+ 
+ 
+ </div>
+  <div class="col-sm-4">
+  
+  
+ 
+	<div class="row">
+	<div class="modal-content">
+
+    					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+							<h4 class="modal-title">Get a CoWorker Account</h4>
+						</div>
+
+						<form action="" method="post">
+							<div class="modal-body">
+							
+							<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="password">Password</label>
+											<input type="password" class="form-control" required="" name="password" value="">
+											<span class="help-block">Choose a password for your new account.</span>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="passwordr">Repeat Password</label>
+											<input type="password" class="form-control" required="" name="passwordr" value="">
+											<span class="help-block">Type the password again. Passwords must match.</span>
+										</div>
+									</div>
+								</div>
+							
+								<div class="form-group">
+									<label for="userEmail">Email Address</label>
+									<input type="text" class="form-control" required="" name="userEmail" value="">
+									<span class="help-block">Your email address is also used to log in.</span>
+								</div>
+								
+								<div class="form-group">
+									<label for="userEmail">Email Address</label>
+									<input type="text" class="form-control" required="" name="userEmail" value="">
+									<span class="help-block">Your email address is also used to log in.</span>
+								</div>
+								
+							</div>
+
+							<div class="modal-footer">
+								<input type="hidden" name="isEmpty" value="">
+								<button type="input" name="submit" value="newAccount" class="btn btn-success btn-icon"><i class="fa fa-check"></i> Create My Account</button>
+								<button type="button" class="btn btn-default btn-icon" data-dismiss="modal"><i class="fa fa-times-circle"></i> Cancel</button>
+							</div>
+						</form>
+
+					</div>
+	</div>
+</div>
+  
+  </div>
+</div>
+
+</div>
+
+
+
+
+</div><br><br>
+
+<div class="container">
+
+<center><h1>Choose your plan</h1></center>
+<br><br>
+<style>
+* COMMON PRICING STYLES */
+		.panel.price,
+		.panel.price>.panel-heading{
+			border-radius:0px;
+			 -moz-transition: all .3s ease;
+			-o-transition:  all .3s ease;
+			-webkit-transition:  all .3s ease;
+		}
+		.panel.price:hover{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2);
+		}
+		.panel.price:hover>.panel-heading{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2) inset;
+		}
+		
+				
+		.panel.price>.panel-heading{
+			box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;
+			text-shadow:0px 3px 0px rgba(50,50,50, .6);
+		}
+			
+		.price .list-group-item{
+			border-bottom-:1px solid rgba(250,250,250, .5);
+		}
+		
+		.panel.price .list-group-item:last-child {
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		.panel.price .list-group-item:first-child {
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+		}
+		
+		.price .panel-footer {
+			color: #fff;
+			border-bottom:0px;
+			background-color:  rgba(0,0,0, .1);
+			box-shadow: 0px 3px 0px rgba(0,0,0, .3);
+		}
+		
+		
+		.panel.price .btn{
+			box-shadow: 0 -1px 0px rgba(50,50,50, .2) inset;
+			border:0px;
+		}
+		
+	/* green panel */
+	
+		
+		.price.panel-green>.panel-heading {
+			color: #fff;
+			background-color: #57AC57;
+			border-color: #71DF71;
+			border-bottom: 1px solid #71DF71;
+		}
+		
+			
+		.price.panel-green>.panel-body {
+			color: #fff;
+			background-color: #65C965;
+		}
+				
+		
+		.price.panel-green>.panel-body .lead{
+				text-shadow: 0px 3px 0px rgba(50,50,50, .3);
+		}
+		
+		.price.panel-green .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}
+		
+		/* blue panel */
+	
+		
+		.price.panel-blue>.panel-heading {
+			color: #fff;
+			background-color: #608BB4;
+			border-color: #78AEE1;
+			border-bottom: 1px solid #78AEE1;
+		}
+		
+			
+		.price.panel-blue>.panel-body {
+			color: #fff;
+			background-color: #73A3D4;
+		}
+				
+		
+		.price.panel-blue>.panel-body .lead{
+				text-shadow: 0px 3px 0px rgba(50,50,50, .3);
+		}
+		
+		.price.panel-blue .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}
+		
+		/* red price */
+		
+	
+		.price.panel-red>.panel-heading {
+			color: #fff;
+			background-color: #D04E50;
+			border-color: #FF6062;
+			border-bottom: 1px solid #FF6062;
+		}
+		
+			
+		.price.panel-red>.panel-body {
+			color: #fff;
+			background-color: #EF5A5C;
+		}
+		
+		
+		
+		
+		.price.panel-red>.panel-body .lead{
+				text-shadow: 0px 3px 0px rgba(50,50,50, .3);
+		}
+		
+		.price.panel-red .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}
+		
+		/* grey price */
+		
+	
+		.price.panel-grey>.panel-heading {
+			color: #fff;
+			background-color: #6D6D6D;
+			border-color: #B7B7B7;
+			border-bottom: 1px solid #B7B7B7;
+		}
+		
+			
+		.price.panel-grey>.panel-body {
+			color: #fff;
+			background-color: #808080;
+		}
+		
+
+		
+		.price.panel-grey>.panel-body .lead{
+				text-shadow: 0px 3px 0px rgba(50,50,50, .3);
+		}
+		
+		.price.panel-grey .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}
+		
+		/* white price */
+		
+	
+		.price.panel-white>.panel-heading {
+			color: #333;
+			background-color: #f9f9f9;
+			border-color: #ccc;
+			border-bottom: 1px solid #ccc;
+			text-shadow: 0px 2px 0px rgba(250,250,250, .7);
+		}
+		
+		.panel.panel-white.price:hover>.panel-heading{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset;
+		}
+			
+		.price.panel-white>.panel-body {
+			color: #fff;
+			background-color: #dfdfdf;
+		}
+				
+		.price.panel-white>.panel-body .lead{
+				text-shadow: 0px 2px 0px rgba(250,250,250, .8);
+				color:#666;
+		}
+		
+		.price:hover.panel-white>.panel-body .lead{
+				text-shadow: 0px 2px 0px rgba(250,250,250, .9);
+				color:#333;
+		}
+		
+		.price.panel-white .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}</style>
+		
+		
+		
+		<div class="row">
+    			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-red">
+						<div class="panel-heading  text-center">
+						<h3>PRO PLAN</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-blue">
+						<div class="panel-heading arrow_box text-center">
+						<h3>DEV PLAN</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
+							<li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
+							<li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-green">
+						<div class="panel-heading arrow_box text-center">
+						<h3>FREE PLAN</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+							<li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+							<li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+			
+				
+					
+					
+				</div>
+				
+
+				
+				
+			</div>
+
+
+
+
+</div>
+
+
+
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
